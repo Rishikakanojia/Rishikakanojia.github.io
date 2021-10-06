@@ -78,18 +78,10 @@ body {
     text-transform: uppercase;
 }
   
-.gl:hover {
-    color:var(--kprimary5);
-    text-shadow:0px 0px 30px #fdec6e;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-}
 
 .name2 {
     font-family: 'Josefin Slab', serif;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 
@@ -141,6 +133,10 @@ body {
 
 #experience .card {
     background-color: var(--kprimary4);
+}
+
+#education .card {
+  background-color: var(--kprimary4);
 }
 
 #community .card {
@@ -351,3 +347,4 @@ video {
     transform: rotateY(180deg) rotateX(-180deg);
   }
 }
+
